@@ -67,7 +67,7 @@ class MainApp extends React.Component {
         }
         },
         headers: {
-        'Authorization': '', // To be updated
+        'Authorization': this.state.idToken,
         'Content-Type': 'application/json'
         }
     };
